@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export const Container = styled.div`
   max-width: 960px;
@@ -26,7 +26,7 @@ export const Logo = styled.p`
   margin: 0;
 `;
 
-export const StyledLink = styled(NavLink)`
+export const StyledLink = styled(Link)`
   padding: 8px 16px;
   border-radius: 4px;
   text-decoration: none;
