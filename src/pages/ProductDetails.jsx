@@ -3,7 +3,7 @@ import { getProductById } from '../fakeAPI';
 
 import { BackLink } from 'components/BackLink/BackLink';
 
-export const ProductDetails = () => {
+const ProductDetails = () => {
   const { id } = useParams();
   const product = getProductById(id);
 
@@ -35,3 +35,5 @@ export const ProductDetails = () => {
     </main>
   );
 };
+
+export default ProductDetails;

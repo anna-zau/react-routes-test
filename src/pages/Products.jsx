@@ -4,7 +4,7 @@ import { ProductList } from '../components/ProducList/ProducList';
 import { getProducts } from '../fakeAPI';
 import { SearchBox } from 'components/SearchBox/SearchBox';
 
-export const Products = () => {
+const Products = () => {
   const products = getProducts();
   const [searchParams, setSearchParams] = useSearchParams();
   const productName = searchParams.get('name') ?? '';
@@ -26,3 +26,5 @@ export const Products = () => {
     </main>
   );
 };
+
+export default Products;
