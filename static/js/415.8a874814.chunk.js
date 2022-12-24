@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkreact_routes_test=self.webpackChunkreact_routes_test||[]).push([[415],{415:function(e,t,s){s.r(t);var i=s(184);t.default=function(){return(0,i.jsxs)("main",{children:[(0,i.jsx)("h1",{children:"Welcome"}),(0,i.jsx)("img",{src:"",alt:"Howl's castle"}),(0,i.jsx)("p",{children:"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto, laboriosam placeat incidunt rem illum animi nemo quibusdam quia voluptatum voluptate."})]})}}}]);
+//# sourceMappingURL=415.8a874814.chunk.js.map
